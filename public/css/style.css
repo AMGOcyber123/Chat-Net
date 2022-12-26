@@ -53,7 +53,7 @@ button:hover {
 
 button:disabled {
     cursor: default;
-    background: #7c5cbf94;
+    background: grey;
 }
 
 /* Join Page Styles */

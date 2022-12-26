@@ -9,7 +9,9 @@ html {
 }
 
 input {
-    font-size: 14px
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: #F7F7FA;
 }
 
 body {
@@ -19,14 +21,15 @@ body {
 }
 
 h1 {
-    margin-bottom: 16px
+    margin-bottom: 16px;
+    color: #F7F7FA;
 }
 
 label {
     display: block;
     font-size: 14px;
     margin-bottom: 8px;
-    color: #777
+    color: #F7F7FA;
 }
 
 input {
@@ -35,27 +38,40 @@ input {
     outline: none
 }
 
+input:focus{
+    transition: background .3s ease;
+    background-color:#D4ECDD ;
+    padding: 12px;
+    border: none;
+}
+
 button {
     cursor: pointer;
     padding: 12px;
-    background: #7C5CBF;
+    background: #bce8cc;
     border: none;
-    color: #fff;
+    border-radius: 10px;
+    color: #000;
     font-size: 16px;
     transition: background .3s ease
 }
 
 button:hover {
-    background: #6b47b8
+    background: #112031;
+    color: #D4ECDD;
+}
+
+.textbox{
+    border-radius: 10px;
 }
 
 button:disabled {
     cursor: default;
-    background: #7c5cbf94
+    background: #112031
 }
 
 .centered-form {
-    background: #333744;
+    background: #152D35;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -65,9 +81,10 @@ button:disabled {
 
 .centered-form__box {
     box-shadow: 0 0 17px 1px #1D1F26;
-    background: #F7F7FA;
-    padding: 24px;
-    width: 250px
+    background: #345B63;
+    padding: 40px;
+    width: 300px;
+    border-radius: 10px;
 }
 
 .centered-form button {
@@ -86,7 +103,7 @@ button:disabled {
 .chat__sidebar {
     height: 100vh;
     color: #fff;
-    background: #333744;
+    background: #345B63;
     width: 225px;
     overflow-y: scroll
 }
@@ -120,7 +137,7 @@ button:disabled {
 }
 
 .message a {
-    color: #0070CC
+    color: #000
 }
 
 .compose {
@@ -151,19 +168,21 @@ button:disabled {
 .room-title {
     font-weight: 400;
     font-size: 22px;
-    background: #2c2f3a;
+    background: #345B63;
     padding: 24px
 }
 
 .list-title {
     font-weight: 500;
     font-size: 18px;
-    margin-bottom: 4px;
-    padding: 12px 24px 0
+    margin-bottom: 6px;
+    padding: 12px 24px ;
+    background-color: #152D35;
 }
 
 .users {
-    list-style-type: none;
+    list-style-type:circle;
     font-weight: 300;
-    padding: 12px 24px 0
+    padding: 12px 24px;
+    background-color: #1a262a;
 }
