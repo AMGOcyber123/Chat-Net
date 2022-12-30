@@ -56,4 +56,4 @@ This will install all the necessary npm packages that has been used to built it.
  * [Nodemon](https://www.npmjs.com/package/nodemon)
  * [Socket.io](https://www.npmjs.com/package/socket.io)
 
-The whole point of this project is to utilise socket as much as we can and understand their concept and on basis of it.
+The whole point of this project is to utilise sockets as much as we can and understand their concept.
