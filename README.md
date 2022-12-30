@@ -30,17 +30,24 @@ This is a simple web application where users can join any room or create a new r
 <hr>
 <br>
 
-* Set the directory
+# Now Let's get started !
+
+* Set the directory once you have cloned the repository:
  ```` cd chat-net ````
 
 ## Installation
-* Use the following command to install all the necessary dependencies
+* Use the following command to install all the necessary dependencies:
  ```` npm install ````
  
-* Run the software using 
+* Run the software using the following command:
  ```` npm run dev ````
   
  
-* This will install all the necessary npm packages that has been used to built it. Which are bad-words, express, moment, nodemon, socket.io.
+This will install all the necessary npm packages that has been used to built it. Which are 
+ * [Bad-words](https://www.npmjs.com/package/bad-words)
+ * [Express](https://www.npmjs.com/package/express)
+ * [Moment](https://www.npmjs.com/package/moment)
+ * [Nodemon](https://www.npmjs.com/package/nodemon)
+ * [Socket.io](https://www.npmjs.com/package/socket.io)
 
 The whole point of this project is to utilise socket as much as we can and understand their concept and on basis of it.
