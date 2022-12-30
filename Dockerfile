@@ -1,6 +1,7 @@
-FROM node:12
+FROM node:slim
 
-WORKDIR /app
+WORKDIR /src
+WORKDIR /public
 
 COPY package*.json ./
 
@@ -12,4 +13,4 @@ ENV PORT=8080
 
 EXPOSE 8080
 
-CMD [ "npm", "start" ]
+CMD [ "npm", "run", "dev" ]
