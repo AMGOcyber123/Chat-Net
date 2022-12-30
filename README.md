@@ -1,5 +1,7 @@
 # Chat Net 
 This is a simple web application where users can join any room or create a new room and chat to people anonymously. For this application, on the UI/UX aspect, my approach was to go for a minimilistic design that is light on eyes. The following image is the landing page when the user opens the application. 
+
+
 ![image](https://user-images.githubusercontent.com/70540288/209781497-d8c9a2ef-0c2c-4b1f-894d-bd42e65932ae.png)
 
 ![image](https://user-images.githubusercontent.com/70540288/209781557-16a4239d-afb4-4e3e-93bb-79225d40e4e9.png)
